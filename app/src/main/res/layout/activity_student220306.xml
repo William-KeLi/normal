@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student_220306">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="学生信息调查" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入姓名"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/et_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入性别"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+         />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入年龄"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+         />
+
+    <EditText
+        android:id="@+id/et_hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入爱好"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+         />
+
+
+
+    <Button
+        android:id="@+id/tijiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/neirong"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:text="提示"
+        android:textSize="20sp"/>
+</LinearLayout>
