@@ -86,7 +86,7 @@ public class Student_220306 extends AppCompatActivity implements View.OnClickLis
     }
    // class MyListener implements View.OnClickListener{
         @Override
-        public void onClick(View view) {
+        public void onClick(View view) {//
             if (view.getId()==R.id.tijiao){
                 Student_220306 s1=new Student_220306(etname.getText().toString().trim(),etsex.getText().toString().trim(),
                         Integer.parseInt(etage.getText().toString().trim()),ethobby.getText().toString().trim());
